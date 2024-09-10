@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>RESUME BUILDER</h1>
+    <form id="resume-form">
+
+        <fieldset id="personal">
+            <legend id="pi">Personal-Information</legend>
+            <div class="photo-section">
+                <img id="profile-photo-preview" class="profile-photo">
+            </div>
+            <label for="photo">Upload Photo:</label>
+            <input type="file" id="photo" accept="image/*" required>
+            
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="Phone">Phone:</label>
+            <input type="tel" id="Phone" required>
+        </fieldset>
+
+        <fieldset id="experience">
+            <legend id="pi">Experience</legend>
+            <textarea id="experience-text" rows="5" required></textarea>
+        </fieldset>
+
+        <fieldset id="education">
+            <legend id="pi">Education</legend>
+            <textarea id="education-text" rows="5" required></textarea>
+        </fieldset>
+
+        <fieldset id="skills">
+            <legend id="pi">Skills</legend>
+            <ul>
+                <li><input type="text" id="skill1" required></li>
+                <li><input type="text" id="skill2" required></li>
+                <li><input type="text" id="skill3" required></li>
+            </ul>
+        </fieldset>
+
+        <button type="submit" id="generate-btn">Generate Resume</button>
+    </form>
+
+    <div id="resume-output" class="resume-style"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

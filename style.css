@@ -1,0 +1,113 @@
+body {
+    margin: 20px;
+    padding: 0px;
+    background: rgb(228 228 228)
+}
+
+form {
+    margin: auto;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 5px black;
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(120, 120, 120);
+}
+
+#personal {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 10px;
+    margin: 0 auto;
+}
+
+#personal label {
+    margin-right: 5px;
+}
+
+#personal input {
+    width: 100%;
+}
+
+fieldset {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: inset 0px -1px 8px 2px #00000059
+}
+
+.photo-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0px 0px 20px 2px black;
+}
+
+/* Styles for the generated resume output */
+.resume-style {
+    margin: 20px auto;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 5px black;
+    width: 400px;
+}
+
+.resume-style h2 {
+    text-align: center;
+    color: rgb(120, 120, 120);
+}
+
+.resume-style fieldset {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: inset 0px -1px 8px 2px #00000059;
+    margin-bottom: 15px;
+}
+
+.resume-style .photo-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.resume-style .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0px 0px 20px 2px black;
+}
+
+.resume-style label {
+    margin-right: 5px;
+}
+
+.resume-style input, .resume-style textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.photo-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0px 0px 20px 2px black;
+}
